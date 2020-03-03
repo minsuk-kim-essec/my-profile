@@ -1,0 +1,98 @@
+body{
+	background-color: #202020;
+	color: #696969;
+	font-family: "Fira Sans";
+	text-align: center;
+	align-items: center;
+	font-size: 45px;
+
+}
+
+#period{
+		color: #D2CBC2;
+		
+}
+
+ul{
+	list-style: none;
+}
+
+.contactinfo li{ 
+	padding: 10px;
+	display: inline;
+ }
+
+ .contactinfo i {
+ 	font-size: 60px;
+ }
+
+a:hover{
+	color: #696969;
+}
+
+a{ 
+	text-decoration: none;
+	font-size: 30px;
+	color: #696969;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.btn-black{ 
+		background-color: #fdec96;
+	padding:8px;
+	border-radius: 6px;
+		text-decoration: underline;
+ }
+
+ .link-black{
+ 	color: #696969;
+ }
+
+
+h1{
+	font-family: "Fira Sans";
+	color: #696969;
+	font-size:60px;
+	line-height: 2;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+h2{
+	font-family: "Fira Sans";
+	color: #696969;
+	font-weight: 300;
+	font-size:50px;
+	line-height: 1;
+}
+
+img{
+	border-radius: 50%
+}
+
+.container div{
+	background-color: #E9E2D7;
+	padding: 20px;
+}
+
+div{
+	background: #BAB5AC;
+    padding: 0px auto;
+    width: 1300px;
+    margin: 100px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    border-color: #D2CBC2;
+
+}
+
+@media (max-width: 500px) {
+	.container div{
+		width: 500px;
+	}
+
+@media (max-width: 760px) {
+	.container div{
+		width: 660px;
+	}
+}
